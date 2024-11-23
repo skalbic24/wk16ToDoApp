@@ -1,6 +1,5 @@
-// src/components/ItemForm.tsx
 import React from 'react';
-import './Form.css'; // Import your CSS styles
+import './index.css'; 
 
 const ItemForm = ({ onSubmit, item, closeModal }) => {
   const [name, setName] = React.useState(item ? item.name : '');

@@ -59,17 +59,9 @@ button.edit {
   justify-content: center; 
 }
 
-
 input {
   padding: 5px;
   margin-right: 5px;
-}
-
-.input-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px; 
 }
 
 .add-must-do {
