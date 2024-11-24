@@ -10,7 +10,7 @@ const ItemForm = ({ onSubmit, item, closeModal }) => {
     onSubmit({ name, description });
     closeModal();
   };
-
+  
   return (
     <div className="modal">
       <div className="form-container">
